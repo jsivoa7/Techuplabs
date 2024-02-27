@@ -1,0 +1,49 @@
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  #myTable td,#myTable tr.header{color: whitesmoke}
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+   #myTable tr:hover {
+    background-color: #8a8a8a;
+  }
+  #search {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 5px solid #ddd;
+    margin-bottom: 12px;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .topright {
+    position: relative;
+    left: 684px;
+    bottom: 100px;
+  }
+  .top{position: absolute;
+    top: 27px;
+    right: 16px;
+    font-size: 18px;
+    color: darkgrey}
+    .title{
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 0;
+  }
+
+ 

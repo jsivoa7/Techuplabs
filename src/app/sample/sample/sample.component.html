@@ -1,0 +1,41 @@
+
+<p class="topleft">List of Pins</p>
+
+<button class=" topright btn btn-info" (click)="customers()">Add Customer</button>
+<button class="topright1 btn btn-info" (click)="pin()">Add Pin</button>
+<div>
+
+<table class="table table-bordered border-primary">
+	<thead>
+		<tr>
+			<th scope="col">Title</th>
+			<th scope="col">Image</th>
+			<th scope="col">Collaboratory</th>
+			<th scope="col">Privacy</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+			<tr *ngFor= "let name of titles; index as i">
+				<td>{{titles[i]}}</td>
+				<td >
+					<img
+						src="assets/image.jpg"
+						
+						style="width: 100px"
+					/>
+				</td>
+				<td>{{ customer[i] }}</td>
+				<td>{{ policy[i] }}</td>
+			</tr>
+		
+	</tbody>
+</table>
+</div>
+
+<div id="overlay" >
+	<div id="text"><app-childofsample  [customer] = "forms" [heading]="heading"></app-childofsample></div>
+	<!-- <button type="button" class="close" aria-label="Close" style="padding: 50px;color: white;"(click)="overlayoff()">
+		<span aria-hidden="true">&times;</span>
+	  </button> -->
+  </div>

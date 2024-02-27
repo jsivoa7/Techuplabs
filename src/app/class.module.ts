@@ -1,0 +1,1 @@
+export class ClassModule {id:number;username:string;password:string }

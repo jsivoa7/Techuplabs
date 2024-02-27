@@ -1,0 +1,1 @@
+export class Posts {country:string;name:string }
